@@ -1,5 +1,6 @@
 import { IpAddressFamily } from '../../../shared/ip_address_family';
 import * as mdl from './index';
+import validator from 'validator';
 
 describe('ddns_update | lib | ip_retriever | ipify_org', () => {
   it('retrieveIpAddress must be a function', () => {
@@ -12,5 +13,6 @@ describe('ddns_update | lib | ip_retriever | ipify_org', () => {
 
     expect(ipAddress).not.toBeUndefined();
     expect(typeof ipAddress).toBe('string');
+    expect(validator.isIP(ipAddress)).toBeTruthy();
   });
 });
