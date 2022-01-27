@@ -1,6 +1,4 @@
-import axios from 'axios';
 import { get as env } from 'env-var';
-import { isNull, isUndefined, cloneDeep } from 'lodash';
 
 import { IpAddressFamily } from '../../../shared/ip_address_family';
 import { createHttpClient, deleteDomainRecord, SERVER_URL } from './helpers';
