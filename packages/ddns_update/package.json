@@ -1,6 +1,6 @@
 {
   "name": "ddns-update",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Update DNS records programmatically",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
