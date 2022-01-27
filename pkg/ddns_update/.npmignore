@@ -1,0 +1,13 @@
+node_modules/
+src/
+
+.bashrc
+.env
+.eslintrc.js
+.gitignore
+.npmrc
+.nvmrc
+.prettierrc
+
+tsconfig.build.json
+tsconfig.json
