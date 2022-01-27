@@ -1,4 +1,3 @@
-import { HttpStatus } from '@nestjs/common';
 import axios from 'axios';
 
 import { IpAddressRetrieverFunction } from '../../../shared/ip_retriever_function';
@@ -16,7 +15,6 @@ export const retrieveIpAddress: IpAddressRetrieverFunction = async (
 
     timeout: 30 * 1000, // in seconds
     responseType: 'json',
-    validateStatus: (status) => status === HttpStatus.OK,
   });
 
   // perform the request
