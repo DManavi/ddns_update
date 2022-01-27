@@ -1,4 +1,3 @@
-import { IpAddressFamily } from '../../../shared/ip_address_family';
 import * as mdl from './index';
 import validator from 'validator';
 
@@ -9,7 +8,7 @@ describe('ddns_update | lib | ip_retriever | ipify_org', () => {
   });
 
   it('retrieveIpAddress must return current system public IP address', async () => {
-    const ipAddress = await mdl.retrieveIpAddress(IpAddressFamily.v4);
+    const ipAddress = await mdl.retrieveIpAddress();
 
     expect(ipAddress).not.toBeUndefined();
     expect(typeof ipAddress).toBe('string');
