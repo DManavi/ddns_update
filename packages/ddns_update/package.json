@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DManavi/ddns_update.git",
-    "directory": "pkg/ddns_update"
+    "directory": "packages/ddns_update"
   },
   "keywords": [
     "dmanavi",
