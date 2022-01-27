@@ -1,0 +1,10 @@
+
+node_modules/
+.bashrc
+.env
+.eslintrc.js
+.gitignore
+.npmrc
+.nvmrc
+.prettierrc
+README.md
