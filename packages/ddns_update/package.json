@@ -33,7 +33,7 @@
     "url": "https://github.com/DManavi/ddns_update/issues",
     "email": "support@keendev.team"
   },
-  "homepage": "https://github.com/DManavi/ddns_update/tree/master/pkg/ddns_update#readme",
+  "homepage": "https://github.com/DManavi/ddns_update/tree/master/packages/ddns_update#readme",
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@types/lodash": "4.14.178",
